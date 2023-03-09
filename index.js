@@ -40,7 +40,8 @@
     const userLogin = prompt('Please, write your login');
     const userEmail = prompt('Please, write your email');
     const userPassword = prompt('Please, write your password');
-    alert('Dear ' + userLogin + ', your email is ' + userEmail + ', your password is ' + userPassword);
+    // alert('Dear ' + userLogin + ', your email is ' + userEmail + ', your password is ' + userPassword);
+    alert(`Dear ${userLogin}, your email is ${userEmail}, your password is ${userPassword}`);
 
     //Task 8
     const secondsPerHour = 60 * 60;
