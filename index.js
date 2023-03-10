@@ -47,8 +47,7 @@
     const secondsPerDay = 24 * secondsPerHour;
     const secondsPerMonth = 30 * secondsPerDay;
     
-    console.log('The number of seconds in an hour: ' + secondsPerHour);
-    console.log('The number of seconds in a day: ' + secondsPerDay);
-    console.log('The number of seconds in a month: ' + secondsPerMonth);
-    
+    console.log(`The number of seconds in an hour: ${secondsPerHour}`);
+    console.log(`The number of seconds in a day: ${secondsPerDay}`);
+    console.log(`The number of seconds in a month: ${secondsPerMonth}`);
 })();
